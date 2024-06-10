@@ -19,6 +19,21 @@
         android:theme="@style/Theme.MapAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".ZoomAndCompassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeMapTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeMarkerActivity"
+            android:exported="false" />
+        <activity
             android:name=".LocationActivity"
             android:exported="false" />
         <activity
